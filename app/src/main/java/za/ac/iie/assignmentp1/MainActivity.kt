@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
 
                 tvMessage.text = "Invalid input! try 'Morning, afternoon, Dinner, etc.."
                 etTime.error = "Invalid time of the day"
-                
+
 
             }
         }

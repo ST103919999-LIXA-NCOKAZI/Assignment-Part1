@@ -32,6 +32,12 @@ class MainActivity : AppCompatActivity() {
 
             val time = etTime.text.toString()
 
+            if(etTime.text.isEmpty()){
+
+                etTime.error = "Invalid time of the day"
+
+
+            }
 
 
             if (time == "morning" || time == "Morning") {
